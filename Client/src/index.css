@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+body {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* For WebKit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+/* Optional: Add hover styles */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
